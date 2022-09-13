@@ -1,0 +1,321 @@
+@import url("../CSS/global.css");
+@import url("../CSS/header-gradient.css");
+@import url("../CSS/footer.css");
+
+h1.homepage-h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+}
+h2.homepage-h2 {
+  margin-top: 60px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+}
+h3.homepage-h3 {
+  font-weight: 700;
+}
+
+.homepageList {
+  margin-top: 60px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  line-height: 37px;
+  gap: 30px;
+  white-space: nowrap;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+  color: #b3b3ba;
+}
+.homepageList li:first-child {
+  background: linear-gradient(90.13deg, #ef8080 0.84%, #f0145a 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.homepageList li:hover {
+  color: #f0145a;
+}
+.homepageText {
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.homepageText ~ p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.link {
+  justify-content: flex-start;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-color-blue);
+  margin-bottom: 5px;
+  margin-top: 30px;
+  gap: 5px;
+}
+a.link:hover > svg.active > path {
+  stroke: #f0145a;
+}
+a.link:hover {
+  color: #f0145a;
+}
+.wrapper {
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.bgImage {
+  width: 92px;
+  height: 92px;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+.cardService h3.homepage-h3 {
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--text-color-blue);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.cardService h3.homepage-h3:hover {
+  color: var(--fill-color);
+}
+p.textCard.homepage-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.textCardTeam {
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.bgCardTeam {
+  margin-top: 30px;
+  background-color: #f5f5fa;
+  padding-bottom: 30px;
+  border-radius: 12px;
+  min-height: 1087px;
+}
+.bgCardTeam > img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+.cardTeam {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+.name {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b3b3ba;
+}
+.position {
+  margin-top: 6px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b3b3ba;
+}
+
+.titleClients {
+  margin-top: 106px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  text-align: center;
+}
+.imgClients {
+  max-width: 100%;
+  height: 120px;
+}
+.imgClients > img {
+  max-width: 55%;
+  max-height: 60%;
+}
+
+.hideMobile {
+  display: none;
+}
+
+.hillel {
+  background-color: #1c4280;
+}
+.wannabiz {
+  background-color: #143646;
+}
+.tapgerine {
+  background: linear-gradient(0deg, #f48b30, #f48b30), #f48b30;
+}
+.dlook {
+  background-color: #9e4dc3;
+}
+.orangear {
+  background-color: #fd9339;
+}
+.adtelligent {
+  background-color: #e2e2e4;
+}
+.partnersShows {
+  display: none;
+}
+
+/*Publication*/
+
+.bgPublication {
+  background-color: #f5f5fa;
+}
+.wrapperPublication {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardPublication {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding-bottom: 30px;
+}
+.cardPublication > img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+.textTitle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24a3ff;
+}
+.textTitle:hover {
+  color: var(--fill-color);
+}
+.textDate {
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b3b3ba;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #e6e6f0;
+}
+.textPublication {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.tabsWrapper {
+  margin-top: 60px;
+}
+.tabsWrapper .nav {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 30px;
+  gap: 30px;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.tabsWrapper .nav::-webkit-scrollbar {
+  height: 4px;
+}
+.tabsWrapper .nav::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.tabsWrapper .nav::-webkit-scrollbar-thumb {
+  border-radius: 300px;
+  border: 6px solid #b3b3ba;
+}
+.tabsWrapper .tab-content {
+  flex-direction: column;
+}
+.tabsHomepage {
+  text-align: right;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #b3b3ba;
+  background-color: transparent;
+  border: none;
+}
+.tabsHomepage:hover {
+  color: var(--fill-color);
+}
+
+.tabsHomepage:focus {
+  background: linear-gradient(90.13deg, #ef8080 0.84%, #f0145a 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#v-pills-home-tab.active {
+  background: linear-gradient(90.13deg, #ef8080 0.84%, #f0145a 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.slick-dots li button:before {
+  font-size: 16px;
+  line-height: 16px;
+  opacity: 0.2;
+  color: #24a3ff;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: var(--text-color-blue);
+}
+
+.slick-dots {
+  bottom: -55px;
+}
+.firstScren {
+  position: relative;
+  top: -122px;
+  background: url("../images/Symbol.png") no-repeat center/cover;
+  background-size: 140vw 100vh;
+  min-height: 100vh;
+  text-align: center;
+  align-items: center;
+  margin-bottom: -122px;
+  justify-content: flex-end;
+  gap: calc(50vh - 141px);
+}
+.scrollDown {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #b3b3ba;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.scrollDown:hover {
+  border-color: var(--fill-color);
+}
+.scrollDown:hover svg > path {
+  stroke: var(--fill-color);
+}

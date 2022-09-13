@@ -1,0 +1,122 @@
+@import url("../fonts/font.css");
+:root {
+  --fill-color: #f0145a;
+  --text-color-blue: #24a3ff;
+  --background-color-lightGrey: #f5f5fa;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: calc(315px + 2rem);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.containerWide {
+  width: 100%;
+  max-width: calc(375px + 2rem);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+}
+img {
+  max-width: 100%;
+}
+
+a,
+a.homepage-a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body.homepage-body {
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.gradient {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  border-radius: 0 0 12px 12px;
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.gradient::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 20px;
+  bottom: -10px;
+  width: calc(100% - 40px);
+  height: 10px;
+  background-color: #cacadb;
+  border-radius: 0 0 12px 12px;
+}
+.gradient::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 40px;
+  bottom: -20px;
+  width: calc(100% - 80px);
+  height: 10px;
+  background-color: #e7e7f2;
+  border-radius: 0px 0px 12px 12px;
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.center {
+  align-items: center;
+}
+.gap10 {
+  gap: 10px;
+}
+.gap30 {
+  gap: 30px;
+}
+
+.redGradient {
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

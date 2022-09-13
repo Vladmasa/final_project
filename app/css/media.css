@@ -1,0 +1,229 @@
+@media (min-width: 768px) {
+  .containerWide {
+    max-width: calc(648px + 2rem);
+  }
+  .container {
+    max-width: calc(648px + 2rem);
+  }
+  .homepageText {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  h1.redGradient.homepage-h1 {
+    margin-top: 60px;
+    font-size: 38px;
+    line-height: 46px;
+  }
+  h2.homepage-h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .wrapper {
+    margin-top: 60px;
+    justify-content: space-between;
+    gap: 60px;
+  }
+  .cardService {
+    flex: 0 1 45%;
+  }
+  .bgCardTeam {
+    min-height: unset;
+  }
+  .bgCardTeam > img {
+    border-radius: 12px 12px 0 0;
+    height: 500px;
+    object-fit: cover;
+  }
+  .listClients {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .imgClients {
+    flex: 0 1 33.33%;
+  }
+  .hideMobile {
+    display: flex;
+  }
+  .clickky {
+    background-color: #c71c36;
+  }
+  .eco-leasing {
+    background-color: #dcf3f9;
+  }
+  .ingratek {
+    background-color: #eaeaea;
+  }
+  .city-par {
+    background-color: #282240;
+  }
+  .artprint {
+    background-color: #1d4568;
+  }
+  .ultimatecard {
+    background-color: #000000;
+  }
+  .cardPublication {
+    flex: 1 1 47%;
+  }
+  .bgCardTeam > img {
+    width: 100%;
+  }
+  .wrapperPublication {
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .cardPublication {
+    flex: 1 1 47%;
+  }
+  .firstScren {
+    top: -241px;
+    margin-bottom: -241px;
+    gap: calc(50vh - 95px);
+    background-size: 110vw 100vh;
+  }
+}
+@media (min-width: 1024px) {
+  .containerWide {
+    max-width: calc(904px + 2rem);
+  }
+  .container {
+    max-width: calc(904px + 2rem);
+  }
+
+  .homepageList {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0;
+
+    border-bottom: none;
+    border-right: 4px solid rgba(255, 255, 255, 0.3);
+    padding-right: 60px;
+    padding-bottom: 0;
+  }
+  .homepageText {
+    margin-top: 0;
+  }
+  .wrapperHomepage {
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    gap: 60px;
+  }
+  .tabsWrapper {
+    display: flex;
+  }
+  .tabsWrapper .nav {
+    flex-direction: column;
+    border-right: 4px solid rgba(255, 255, 255, 0.3);
+    margin-right: 60px;
+    padding-right: 60px;
+    width: 49%;
+    overflow: hidden;
+    align-items: flex-end;
+  }
+  .tabsWrapper .tab-content {
+    width: calc(51% - 60px);
+  }
+  .tabsHomepage {
+    text-align: right;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #b3b3ba;
+  }
+  .tabsHomepage:hover {
+    color: var(--fill-color);
+  }
+
+  .cardService {
+    flex: 0 1 28%;
+  }
+  .imgClients {
+    flex: 0 1 25%;
+  }
+
+  .bgCardTeam {
+    border-radius: 12px;
+    flex: 0 1 45%;
+    padding-bottom: 0;
+  }
+  .bgCardTeam > img {
+    border-radius: 12px 0 0 12px;
+    max-width: 400px;
+    height: 528px;
+    float: left;
+    margin-right: 20px;
+  }
+  .cardTeam {
+    padding-left: 0;
+    padding-right: 30px;
+  }
+  h3.textCardTeam.redGradiner {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .cardPublication {
+    flex: 1 1 31%;
+  }
+  .cardTeam {
+    margin-top: 0;
+  }
+  .position {
+    margin-bottom: 30px;
+  }
+
+  .firstScren {
+    background-size: 70vw 100vh;
+  }
+}
+
+@media (min-width: 1440px) {
+  .containerWide {
+    max-width: calc(1320px + 2rem);
+  }
+  .container {
+    max-width: calc(1320px + 2rem);
+  }
+  .cardService {
+    flex: 0 1 30%;
+  }
+  .wrapperHomepage {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .bgCardTeam > img {
+    height: 344px;
+  }
+
+  .tabsWrapper .nav {
+    width: 42%;
+  }
+  .tabsWrapper .tab-content {
+    width: calc(48% - 60px);
+  }
+  .firstScren {
+    background-size: 50vw 100vh;
+  }
+}
+@media (min-width: 1920px) {
+  .containerWide {
+    max-width: calc(1600px + 2rem);
+  }
+  .container {
+    max-width: calc(1600px + 2rem);
+  }
+  .bgCardTeam > img {
+    height: 298px;
+  }
+  .tabsWrapper .nav {
+    width: 42%;
+  }
+  .tabsWrapper .tab-content {
+    width: calc(58% - 60px);
+  }
+  .listClients {
+    max-width: 1720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
