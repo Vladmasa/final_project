@@ -1,0 +1,98 @@
+@media (min-width: 768px) {
+    .containerWide {
+      max-width: calc(648px + 2rem);
+    }
+    .container {
+      max-width: calc(648px + 2rem);
+    }
+    h2.redGradient {
+      font-size: 38px;
+      line-height: 46px;
+    }
+    .slick-dots li:nth-child(4),
+    .slick-dots li:nth-child(5),
+    .slick-dots li:nth-child(6) {
+      display: none;
+    }
+    .secondAbout {
+      margin-top: 60px;
+    }
+    .bgPhoto {
+      height: 234px;
+    }
+  
+    .bgPhoto > p {
+      font-size: 46px;
+      line-height: 56px;
+      letter-spacing: 63px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .containerWide {
+      max-width: calc(904px + 2rem);
+    }
+    .container {
+      max-width: calc(904px + 2rem);
+    }
+    .firstScreenAbout {
+      display: flex;
+      margin-bottom: 60px;
+    }
+    .firstAbout {
+      margin-right: 30px;
+    }
+    .cards {
+      min-width: 388px;
+    }
+    .secondAbout {
+      display: flex;
+    }
+    h2.rightpart {
+      min-width: 362px;
+      margin-left: 30px;
+      margin-top: 0;
+    }
+    .secondAbout .textAbout {
+      margin-right: 30px;
+    }
+    .bgPhoto {
+      height: 311px;
+    }
+  
+    .bgPhoto > p {
+      font-size: 86px;
+      line-height: 105px;
+      letter-spacing: 63px;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .containerWide {
+      max-width: calc(1320px + 2rem);
+    }
+    .container {
+      max-width: calc(1320px + 2rem);
+    }
+    .bgPhoto {
+      height: 438px;
+    }
+    .bgPhoto > p {
+      font-size: 96px;
+      line-height: 117px;
+      letter-spacing: 63px;
+    }
+  }
+  
+  @media (min-width: 1920px) {
+    .containerWide {
+      max-width: calc(1600px + 2rem);
+    }
+    .container {
+      max-width: calc(1600px + 2rem);
+    }
+    .bgPhoto {
+      height: 584px;
+    }
+  }
+  
