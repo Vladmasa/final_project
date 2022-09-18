@@ -1,5 +1,6 @@
-@import url("../../css/global.css");
-
+@import url("../../CSS/global.css");
+@import url("../../CSS/header-white.css");
+@import url("../../CSS/footer.css");
 
 .nameSection {
   white-space: nowrap;
